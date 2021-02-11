@@ -1,0 +1,28 @@
+
+.main {
+    background: url('./pictures/forest-by-Milk-Tea.jpg');
+    background-size: contain;
+    padding: 20px;
+    padding-bottom: 80px;
+    /* height: 100vh; */
+}
+
+.main__container {
+    backdrop-filter: blur(5px);
+    margin: 40px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.479); 
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.main__top-icon-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main__top-icon { 
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}

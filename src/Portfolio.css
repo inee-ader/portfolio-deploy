@@ -1,0 +1,72 @@
+
+.portfolio {
+    background: url('./pictures/forest-by-connie-van-den-akker.jpg');
+    background-size: contain;
+    padding: 20px;
+}
+
+.portfolio__container { 
+    backdrop-filter: blur(5px);
+    margin: 40px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.479); 
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.portfolio__headline {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portfolio__project-container {
+    padding: 10px;
+    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project { 
+    width: 40%;
+    border: 1px solid white;
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.project__name {
+    font-size: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.project__image { 
+    width: 90%;
+    height: 96%;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.project > p {
+    padding: 7px;
+    font-style: italic;
+   
+}
+
+.project__icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8px;
+}
+
+.project-youtube-icon, 
+.project-github-icon {
+    object-fit: contain;
+    width: 45px;
+}
