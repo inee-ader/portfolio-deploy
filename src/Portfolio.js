@@ -30,7 +30,7 @@ const Portfolio = () => {
                 <div className="project">
                     <h6 className="project__name">Feather & Stone</h6>
                     <div className="project__image-div">
-                        <img className="project__image" src={FSPic} alt="Feather and Stone"></img>
+                        <img className="project__image" src={FSPic}></img>
                     </div>
                     <p>Write about your day's highlight and lowpoint in this simple journal-entry app for peaceful self-reflection.</p>
                     <b>Built with: Ruby on Rails, Javascript, and vanilla CSS.</b>
