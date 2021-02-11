@@ -1,0 +1,16 @@
+
+.other {
+    height: 100vh;
+    background: url('./pictures/forest-by-connie-van-den-akker.jpg');
+    background-size: contain;
+    padding: 20px;
+}
+
+.other__container {
+    backdrop-filter: blur(5px);
+    margin: 40px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.479); 
+    border-radius: 10px;
+    border: 1px solid white;
+}

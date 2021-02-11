@@ -4,7 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import About from './About';
 import Main from './Main';
-// import Other from './Other';
+import Other from './Other';
 
 function App() {
   return (
@@ -17,10 +17,10 @@ function App() {
             <About />
           </Route>
 
-          {/* <Route path='/other'>
+          <Route path='/other'>
             <Header active='other' /> 
             <Other />
-          </Route> */}
+          </Route>
 
           <Route path='/'>
             <Header active='main' /> 
