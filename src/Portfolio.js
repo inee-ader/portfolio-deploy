@@ -13,7 +13,7 @@ const Portfolio = () => {
                 <div className="project">
                     <h6 className="project__name">FacePlant</h6>
                     <div className="project__image-div">
-                        <img className="project__image" src={FacePlantPic}></img>
+                        <img className="project__image" src={FacePlantPic} alt="FacePlant"></img>
                     </div>
                     <p>A social media platform for house plant enthusiasts! Catalogue your plant collection, adore other's plants, and comment your appreciation.</p>
                     <b>Built with: Ruby on Rails, PostgreSQL, Javascript, React, TheNounProject icon API, and vanilla CSS.</b>
@@ -30,7 +30,7 @@ const Portfolio = () => {
                 <div className="project">
                     <h6 className="project__name">Feather & Stone</h6>
                     <div className="project__image-div">
-                        <img className="project__image" src={FSPic}></img>
+                        <img className="project__image" src={FSPic} alt="Feather and Stone"></img>
                     </div>
                     <p>Write about your day's highlight and lowpoint in this simple journal-entry app for peaceful self-reflection.</p>
                     <b>Built with: Ruby on Rails, Javascript, and vanilla CSS.</b>
@@ -47,7 +47,7 @@ const Portfolio = () => {
                 <div className="project">
                     <h6 className="project__name">Pet Battle</h6>
                     <div className="project__image-div">
-                        <img className="project__image" src={PetBattlePic}></img>
+                        <img className="project__image" src={PetBattlePic} alt="Pet Battle"></img>
                     </div> 
                     <p>Choose your team of 3 pet companions and battle the boss!</p>
                     <b>Built with: Ruby on Rails, Javascript, React, Blizzard's Pet API, and Bootstrap-React.</b>
