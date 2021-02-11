@@ -6,7 +6,7 @@ const Main = () => {
     return (
         <div className="main">
             <div className="main__container">
-                <p className="main__intro">Hi there! I'm Inée, the amazing newly-hatched Software Engineer! I prefer front-end stuff, but I learned full-stack stuff! </p>
+                <p className="main__intro">Hi there! I'm Inée, the amazing newly-hatched Software Engineer! I prefer front-end stuff, but I learned full-stack! Can't wait to learn more and upgrade my skills! </p>
             </div>
             <Portfolio />
             <div className="main__top-icon-div">

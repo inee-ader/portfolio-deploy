@@ -19,7 +19,7 @@ const About = () => {
                             <li>L.D.T. - Lymph Drainage Therapist</li>
                             <li>Nutritionist</li>
                         </ul>
-                        <p>Flipped my whole career field from health and nutrition into tech, October 2020, without any previous experience in coding, and I've been overwhelmed ever since! I know I still have a lot to learn, but I'm ready to absorb all I can!</p>
+                        <p>Flipped my whole career field from health and nutrition into tech, October 2020, without any previous experience in coding, and I've been engrossed ever since! I know I still have a lot to learn, but I'm ready to absorb all I can!</p>
                         <br></br>
                     </div>
                     <div className="about__column">
