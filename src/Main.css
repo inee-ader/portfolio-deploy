@@ -16,6 +16,10 @@
     border: 1px solid white;
 }
 
+.main__intro {
+    font-size: 20px;
+}
+
 .main__top-icon-div {
     display: flex;
     justify-content: flex-end;

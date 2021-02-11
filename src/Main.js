@@ -6,7 +6,7 @@ const Main = () => {
     return (
         <div className="main">
             <div className="main__container">
-                <p>Currently Under Construction. With all due respect, please bugger off and come back later :) </p>
+                <p className="main__intro">Hi there! I'm Inée, the amazing newly-hatched Software Engineer! I prefer front-end stuff, but I learned full-stack stuff! </p>
             </div>
             <Portfolio />
             <div className="main__top-icon-div">

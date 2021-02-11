@@ -47,6 +47,7 @@ const About = () => {
                             <li>Loves my creative/innovative ideas</li>
                             <li>Conducive to skills improvement</li>
                             <li>Clear communication</li>
+                            <li>Mentorship</li>
                         </ul>
                         <br></br>
                     </div>

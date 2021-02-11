@@ -28,11 +28,12 @@
 }
 
 .project { 
-    width: 40%;
+    width: 25%;
     border: 1px solid white;
     display: grid;
     padding: 10px;
     margin: 10px;
+    border-radius: 50px;
 }
 
 .project__name {

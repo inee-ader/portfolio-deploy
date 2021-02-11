@@ -32,8 +32,8 @@ const Portfolio = () => {
                     <div className="project__image-div">
                         <img className="project__image" src={FSPic}></img>
                     </div>
-                    <p>Write about your day's highlight and lowpoint in this simple journal-entry app for peaceful self-reflection.</p>
-                    <b>Built with: Ruby on Rails, Javascript, and vanilla CSS.</b>
+                    <p>Write about your day's highlight and lowpoint in this simple journal-entry app for peaceful self-reflection. Watch the little snail travel across your screen for 5 minutes while you write.</p>
+                    <b>Built with: Ruby on Rails, Javascript, SQLite3, and vanilla CSS.</b>
                     <div className="project__icons">
                         <a target="_blank" rel="noreferrer" href="https://github.com/inee-ader/frontend-fs">
                             <img src="https://img.icons8.com/ios-glyphs/2x/ffffff/github.png" alt="github" className="project-github-icon"></img>
@@ -49,7 +49,7 @@ const Portfolio = () => {
                     <div className="project__image-div">
                         <img className="project__image" src={PetBattlePic} alt="Pet Battle"></img>
                     </div> 
-                    <p>Choose your team of 3 pet companions and battle the boss!</p>
+                    <p>Choose your team of 3 pet companions and battle the boss! No pets were harmed in the making of this game.</p>
                     <b>Built with: Ruby on Rails, Javascript, React, Blizzard's Pet API, and Bootstrap-React.</b>
                     <div className="project__icons">
                         <a target="_blank" rel="noreferrer" href="https://github.com/inee-ader/front-PetBattle">
