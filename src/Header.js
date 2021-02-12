@@ -2,20 +2,22 @@ import React, { Component } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom'
 import hello from './audio/helloiminee.mp3'
-import imineee from './audio/imineee.mp3'
-import meetyou from './audio/nicetomeetyou.mp3'
-import pronounce from './audio/pronouncedInee.mp3'
+// import ineee from './audio/ineee.mp3'
+// import nice from './audio/nice.mp3'
+// import pronounce from './audio/pronounced.mp3'
 import { Howl, Howler } from 'howler'
 
-const audioClips = [
-    {sound: hello, label: 'helloiminee'}, 
-    {sound: imineee, label: 'imineee'}, 
-    {sound: meetyou, label: 'nicetomeetyou'}, 
-    {sound: pronounce, label: 'Pronunciation'}
-]
+// const audioClips = [
+//     {sound: hello, label: 'Hello'}, 
+//     {sound: ineee, label: 'Meee'}, 
+//     {sound: nice, label: 'Nice to meet you'}, 
+//     {sound: pronounce, label: 'Pronunciation'}
+// ]
+
+const helloIntro = [{sound: hello}]
+// const pronunciation = [{sound: pronounce}]
 
 class Header extends Component {
-
 
     soundPlay = (src) => {
         const sound = new Howl({
@@ -24,22 +26,35 @@ class Header extends Component {
         sound.play()
     }
 
-    renderSound = () => {
-        return audioClips.map((soundObj, index) => {
+
+
+    renderNameSound = () => {
+        return helloIntro.map((soundObj, index) => {
             return(
-                <button key={index} onClick={()=> this.soundPlay(soundObj.sound)}>
-                    {soundObj.label}
-                </button>
+                <h1 key={index} onMouseEnter={() => this.soundPlay(soundObj.sound)}>
+                INÉE ADER
+                </h1>
             )
         })
     }
+
+    // renderPronunciation = () => {
+    //     return pronunciation.map((soundObj) => {
+    //         return(
+    //             <p onClick={() => this.soundPlay(soundObj.sound)}>(pronunciation)</p>
+    //         )
+    //     })
+    // }
 
     render() {
         Howler.volume(1.0)
         return (
             <div className="header">
-                <h1>INÉE ADER</h1>
-                {this.renderSound()}
+                <div className="header__name">
+                    {this.renderNameSound()}
+                    
+                    {/* {this.renderPronunciation()} */}
+                </div>
                 <ul>
                     <Link to="/">
                         <li className={this.props.active === 'main' ? 'header__main--active' : null} >Main</li>
