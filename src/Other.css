@@ -4,6 +4,7 @@
     background: url('./pictures/forest-by-connie-van-den-akker.jpg');
     background-size: contain;
     padding: 20px;
+    color: white;
 }
 
 .other__container {
