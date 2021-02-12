@@ -1,9 +1,10 @@
 
 .about {
-    background: url('./pictures/autumn-by-zhen-hu.jpg');
+    background: url('./pictures/crystal-carole-smile.jpg');
     background-size: contain;
     padding: 20px;
     height: 100vh;
+    color: white;
 }
 
 .about__headline { 
@@ -12,27 +13,27 @@
 }
 
 .about__container { 
-    margin: 40px;
+    /* margin: 40px; */
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.479); 
-    border-radius: 10px;
-    border: 1px solid white;
-    backdrop-filter: blur(5px);
+    /* background-color: rgba(0, 0, 0, 0.479);  */
+    /* border-radius: 10px; */
+    /* border: 1px solid white; */
+    /* backdrop-filter: blur(5px); */
 }
 
 .about__columns {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .about__column {
     display: grid;
-    width: 40%;
+    width: 20%;
     border: 1px solid white;
-    margin:20px;
-    padding: 20px;
-    border-radius: 50px;
+    margin:10px;
+    padding: 10px;
+    /* border-radius: 50px; */
 }
 
 /* .about__me1 {

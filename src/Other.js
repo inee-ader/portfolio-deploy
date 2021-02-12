@@ -5,7 +5,7 @@ const Other = () => {
     return (
         <div className="other">
             <div className="other__container">
-                <h1> Other Stuff </h1>
+                <h1> Some nonsense </h1>
                 
             </div>
         </div>

@@ -4,15 +4,13 @@ import './About.css'
 // import me2 from './pictures/me2.png'
 // import me3 from './pictures/me3.png'
 
-
 const About = () => {
     return (
         <div className="about">
             <div className="about__container">
             <h1 className="about__headline">Just Human Things...</h1>
                 <div className="about__columns">
-
-                    <div className="about__column">
+                    <article className="about__column">
                         <h4>History</h4>
                         <p>Here lie the bullet points of my past: </p>
                         <ul>
@@ -24,10 +22,9 @@ const About = () => {
                             <li>Nutritionist</li>
                         </ul>
                         <p>Flipped my whole career field from health and nutrition into tech, October 2020, without any previous experience in coding, and I've been engrossed ever since! I know I still have a lot to learn, but I'm ready to absorb all I can!</p>
-                        <br></br>
-                    </div>
+                    </article>
 
-                    <div className="about__column">
+                    <article className="about__column">
                         <h4>Hobbies</h4>
                         <p>I enjoy so many things, to name a few: </p>
                         <ul>
@@ -40,10 +37,9 @@ const About = () => {
                             <li>Watercolor and Acrylic painting</li>
                             <li>Connecting with nature through ritual</li>
                         </ul>
-                        <br></br>
-                    </div>
+                    </article>
 
-                    <div className="about__column">
+                    <article className="about__column">
                         <h4>What I'm looking for in a work environment: </h4>
                         <ul>
                             <li>Collaborative atmosphere</li>
@@ -54,10 +50,9 @@ const About = () => {
                             <li>Clear communication</li>
                             <li>Mentorship</li>
                         </ul>
-                        <br></br>
-                    </div>
+                    </article>
 
-                    <div className="about__column">
+                    <article className="about__column">
                         <h4>Self-acknowledged Positive Traits: </h4>
                         <ul>
                             <li>ENTHUSIASM!</li>
@@ -71,8 +66,8 @@ const About = () => {
                             <li>Excellent in written and oral communication</li>
                             <li>Acknowledges shortcomings and works to improve</li>
                         </ul>
-                        <br></br>
-                    </div>
+                    </article>
+
                 </div>
             </div>
         </div>

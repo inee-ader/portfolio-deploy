@@ -8,6 +8,7 @@
     top: 0;
     z-index: 100;
     border-bottom: 1px solid white;
+    color: white;
 }
 
 .header__name {
@@ -24,10 +25,12 @@
 
 .header__secret {
     width: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header__secret:hover {
-    background-color: gray;
+    background-color: pink;
     cursor: pointer;
 }
 

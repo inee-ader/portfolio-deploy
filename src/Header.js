@@ -15,7 +15,6 @@ import { Howl, Howler } from 'howler'
 // ]
 
 const helloIntro = [{sound: hello}]
-// const pronunciation = [{sound: pronounce}]
 
 class Header extends Component {
 
@@ -36,22 +35,12 @@ class Header extends Component {
         })
     }
 
-    // renderPronunciation = () => {
-    //     return pronunciation.map((soundObj) => {
-    //         return(
-    //             <p onClick={() => this.soundPlay(soundObj.sound)}>(pronunciation)</p>
-    //         )
-    //     })
-    // }
-
-
     render() {
         Howler.volume(1.0)
         return (
             <div className="header">
                 <div className="header__name">
                     {this.renderNameSound()}
-                    {/* {this.renderPronunciation()} */}
                 </div>
                 <Link to='/secret' className="header__secret">
                     <div>
@@ -67,7 +56,7 @@ class Header extends Component {
                     </Link>
     
                     <Link to="/other">
-                        <li className={this.props.active === 'other' ? 'header__other--active' : 'header__inactive'} >Other</li>
+                        <li className={this.props.active === 'other' ? 'header__other--active' : 'header__inactive'} >Rigamarole</li>
                     </Link>
                 </ul>
             </div>
