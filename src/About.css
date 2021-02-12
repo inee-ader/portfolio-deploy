@@ -30,11 +30,15 @@
 .about__column {
     display: grid;
     width: 20%;
-    height: 500px;
+    /* height: auto; */
     border: 1px solid white;
     margin:10px;
     padding: 10px;
     /* border-radius: 50px; */
+}
+
+.about__column > ul {
+    list-style: none;
 }
 
 /* .about__me1 {

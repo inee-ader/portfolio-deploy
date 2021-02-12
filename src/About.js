@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './About.css'
-// import me1 from './pictures/me1.png'
-// import me2 from './pictures/me2.png'
-// import me3 from './pictures/me3.png'
+
 
 const About = () => {
 
