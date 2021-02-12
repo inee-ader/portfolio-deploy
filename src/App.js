@@ -6,6 +6,7 @@ import Footer from './Footer';
 import About from './About';
 import Main from './Main';
 import Other from './Other';
+import Secret from './Secret'
 
 class App extends Component {
   render() {
@@ -24,10 +25,15 @@ class App extends Component {
               <Other />
             </Route>
   
+            <Route path='/secret'>
+              <Secret />
+            </Route>
+            
             <Route path='/'>
               <Header active='main' /> 
               <Main />
             </Route>
+
   
           </Switch>
   

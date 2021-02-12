@@ -22,6 +22,15 @@
     height: 80px;
 } */
 
+.header__secret {
+    width: 5px;
+}
+
+.header__secret:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
 .header > ul {
     list-style: none;
     display: flex;
@@ -44,3 +53,8 @@
 .header__other--active {
     color: rgb(255, 230, 0);
 }
+
+.header__inactive {
+    color: white;
+}
+

@@ -26,8 +26,6 @@ class Header extends Component {
         sound.play()
     }
 
-
-
     renderNameSound = () => {
         return helloIntro.map((soundObj, index) => {
             return(
@@ -46,26 +44,30 @@ class Header extends Component {
     //     })
     // }
 
+
     render() {
         Howler.volume(1.0)
         return (
             <div className="header">
                 <div className="header__name">
                     {this.renderNameSound()}
-                    
                     {/* {this.renderPronunciation()} */}
                 </div>
+                <Link to='/secret' className="header__secret">
+                    <div>
+                    </div>
+                </Link>
                 <ul>
                     <Link to="/">
-                        <li className={this.props.active === 'main' ? 'header__main--active' : null} >Main</li>
+                        <li className={this.props.active === 'main' ? 'header__main--active' : 'header__inactive'} >Main</li>
                     </Link>
     
                     <Link to="/about">
-                        <li className={this.props.active === 'about' ? 'header__about--active' : null} >About</li>
+                        <li className={this.props.active === 'about' ? 'header__about--active' : 'header__inactive'} >About</li>
                     </Link>
     
                     <Link to="/other">
-                        <li className={this.props.active === 'other' ? 'header__other--active' : null} >Other</li>
+                        <li className={this.props.active === 'other' ? 'header__other--active' : 'header__inactive'} >Other</li>
                     </Link>
                 </ul>
             </div>
