@@ -18,7 +18,6 @@
     border-radius: 10px;
     border: 1px solid white;
     backdrop-filter: blur(5px);
-
 }
 
 .about__columns {
@@ -31,9 +30,34 @@
     display: grid;
     width: 40%;
     border: 1px solid white;
-    margin: 10px;
+    margin:20px;
     padding: 20px;
     border-radius: 50px;
-    background-color: rgba(0, 0, 0, 0.65);
-
 }
+
+/* .about__me1 {
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about__me2 {
+    max-height: auto;
+    max-width: auto;
+    object-fit: contain;
+    border-radius: 40px;
+    padding: 20px;
+} */
+
+/* .about__me3 {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 40px;
+}
+
+.about__me4 {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 40px;
+} */

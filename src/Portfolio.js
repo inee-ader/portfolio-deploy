@@ -3,6 +3,8 @@ import './Portfolio.css';
 import FacePlantPic from './pictures/FacePlant.png';
 import FSPic from './pictures/F&S.png';
 import PetBattlePic from './pictures/PetBattle.png';
+import me4 from './pictures/me4.png'
+
 
 const Portfolio = () => {
     return (
@@ -62,6 +64,7 @@ const Portfolio = () => {
                 </div>
 
             </div>
+            <img className="portfolio__me4" src={me4} alt="me"></img>
         </div>
     );
 }
