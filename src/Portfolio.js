@@ -9,6 +9,7 @@ import me4 from './pictures/me4.png'
 const Portfolio = () => {
     return (
         <div className="portfolio__container">
+            <p className="portfolio__intro" >Hi there! I'm Inée, the amazing newly-hatched Software Engineer! I prefer front-end stuff, but I learned full-stack! Can't wait to create new projects and enhance my skills!</p>
             <h1 className="portfolio__headline">Portfolio</h1>
             <div className="portfolio__project-container">
 
@@ -62,9 +63,21 @@ const Portfolio = () => {
                         </a>
                     </div>
                 </div>
-
             </div>
-            <img className="portfolio__me4" src={me4} alt="me"></img>
+            <div className="portfolio__image-form">
+                <img className="portfolio__me4" src={me4} alt="me"></img>
+                <div className="contact__form-div">
+                        <h2 className="contact__h">Reach out to me</h2>
+                        <form action="https://send.pageclip.co/KsNCmYc4KYuibLzdlLAo0Z0B3yz0atJh" className="contact__form" method="post">
+                            <input className="contact__input" type="text" name="name" placeholder="your name" />
+                            <input className="contact__input" type="email" name="email" placeholder="you@youremail.com" />
+                            <textarea className="contact__message" type="text" name="message" placeholder="What's up?"></textarea>
+                            <button type="submit" class="pageclip-form__submit">
+                            <span>Send</span>
+                            </button>
+                        </form>
+                    </div>
+            </div>
         </div>
     );
 }

@@ -83,7 +83,7 @@ const About = () => {
                         onMouseLeave={() => setHover("")}>
                         <h4>Personality Traits: </h4>
                         {onHover === "personality" && 
-                            <div>   
+                            <div className="about__column-hover">   
                                 <br></br>
                                 <ul>
                                     <li>ENTHUSIASM!</li>

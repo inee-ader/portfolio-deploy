@@ -2,8 +2,8 @@
 .about {
     background: url('./pictures/crystal-carole-smile.jpg');
     background-size: contain;
-    padding: 20px;
     height: 100vh;
+    padding: 20px;
     color: rgb(131, 131, 131);
     text-shadow: 2px 2px 15px white;
     font-size: 20px;
@@ -49,6 +49,8 @@
 ul {
     list-style: circle;
 }
+
+
 
 /* .about__me1 {
     max-height: 100%;

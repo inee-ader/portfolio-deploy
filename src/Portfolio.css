@@ -21,6 +21,11 @@
     margin-bottom: 20px;
 }
 
+.portfolio__intro {
+    font-size: 20px;
+    margin: 50px;
+}
+
 .portfolio__project-container {
     padding: 10px;
     text-align: center;
@@ -35,7 +40,7 @@
     display: grid;
     padding: 10px;
     margin: 10px;
-    border-radius: 50px;
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.65);
 }
 
@@ -78,4 +83,55 @@ a {
 .portfolio__me4 {
     max-height: 100%;
     max-width: 100%;
+}
+
+.portfolio__image-form {
+    display: flex;
+}
+
+.contact__form-div{
+    width: 100%;
+}
+
+.contact__h {
+    /* display: grid; */
+    text-align: center;
+    padding: 20px;
+}
+
+.contact__form {
+    display: grid;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact__message {
+    resize: none;
+}
+
+.contact__input, .contact__message {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* submit button */
+.pageclip-form__submit {
+    background-color: white;
+    color: gray;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
 }
