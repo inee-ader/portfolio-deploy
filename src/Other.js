@@ -1,6 +1,6 @@
 import React from 'react';
 import './Other.css'
-import me1 from './pictures/me1.png'
+// import me1 from './pictures/me1.png'
 
 
 const Other = () => {
