@@ -99,6 +99,10 @@ a {
     padding: 20px;
 }
 
+.contact__form-div {
+    margin-top: 8%;
+}
+
 .contact__form {
     display: grid;
     /* align-items: center; */
