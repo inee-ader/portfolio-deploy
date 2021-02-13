@@ -62,6 +62,7 @@ const About = () => {
                         <h4>What I'm looking for</h4>
                         {onHover === "looking" &&
                             <div>
+                                <br></br>
                                 <p>...in a work environment: </p>
                                 <br></br>
                                 <ul>
@@ -86,14 +87,13 @@ const About = () => {
                                 <br></br>
                                 <ul>
                                     <li>ENTHUSIASM!</li>
-                                    <li>Able to discuss and resolve conflict</li>
+                                    <li>Can discuss and resolve conflicts</li>
                                     <li>Inclusive and team-oriented</li>
-                                    <li>Asks questions until confident in what is expected of me</li>
+                                    <li>Asks many clarifying questions</li>
                                     <li>Curious and inquisitive</li>
                                     <li>Takes responsibility for actions</li>
                                     <li>Empathetic and emotionally intelligent</li>
-                                    <li>Accept when I'm wrong</li>
-                                    <li>Excellent in written and oral communication</li>
+                                    <li>Excellent written and oral communication</li>
                                     <li>Acknowledges shortcomings and works to improve</li>
                                 </ul>
                             </div>

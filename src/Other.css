@@ -1,8 +1,8 @@
 
 .other {
     height: 100vh;
-    /* background: url('./pictures/forest-by-connie-van-den-akker.jpg'); */
-    /* background-size: contain; */
+    background: url('./pictures/sunrise-hide-obara.jpg');
+    background-size: contain;
     padding: 20px;
     color: white;
 }
@@ -13,5 +13,9 @@
     padding: 20px;
     /* background-color: rgba(0, 0, 0, 0.479);  */
     /* border-radius: 10px; */
-    /* border: 1px solid white; */
+}
+
+.other__me1 {
+    border-radius: 90px;
+
 }
