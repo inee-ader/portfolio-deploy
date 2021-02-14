@@ -6,15 +6,15 @@
 }
 
 .portfolio__container { 
-    /* backdrop-filter: blur(5px); */
+    backdrop-filter: blur(2px);
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     padding-top: 3px;
     padding-bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.2); 
     /* border-radius: 10px; */
-    /* border: 1px solid white; */
+    border: 1px solid white;
 }
 
 .portfolio__headline {
@@ -37,12 +37,13 @@
 
 .project { 
     width: 25%;
+    color: white;
     /* border: 1px solid white; */
     display: grid;
     padding: 10px;
     margin: 10px;
     /* border-radius: 20px; */
-    background-color: rgba(0, 0, 0, 0.50);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .project__name {
@@ -102,6 +103,7 @@ a {
 
 .contact__form-div {
     margin-top: 8%;
+    padding-right: 20px;
 }
 
 .contact__form {
@@ -128,8 +130,8 @@ a {
 
 /* submit button */
 .pageclip-form__submit {
-    background-color: rgba(169, 201, 169, 0.781);   
-    color: white;
+    background-color: rgba(255, 255, 255, 0.781);   
+    color: black;
     width: 20%;
     margin-top: 10px;
     margin-left: 10px;
@@ -141,6 +143,6 @@ a {
 }
 
 .pageclip-form__submit:hover {
-    background-color:  rgba(222, 243, 222, 0.842);
+    background-color:  rgba(238, 227, 189, 0.842);
     color: black;
 }
