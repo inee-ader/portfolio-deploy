@@ -7,13 +7,13 @@
 }
 
 .portfolio__container { 
-    backdrop-filter: blur(5px);
-    margin: 40px;
-    padding: 20px;
+    /* backdrop-filter: blur(5px); */
+    margin: 50px;
+    padding-top: 3px;
     padding-bottom: 0;
-    background-color: rgba(0, 0, 0, 0.479); 
-    border-radius: 10px;
-    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.3); 
+    /* border-radius: 10px; */
+    /* border: 1px solid white; */
 }
 
 .portfolio__headline {
@@ -131,8 +131,7 @@ a {
     color: white;
     width: 20%;
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
     font-size: 18px;
     border: none;
     border-radius: 5px;

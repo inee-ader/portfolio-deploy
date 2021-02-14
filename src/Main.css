@@ -1,8 +1,8 @@
 
 .main {
-    background: url('./pictures/forest-by-connie-van-den-akker.jpg');
+    background: url('./pictures/white-teepee-ian-keefe.jpg');
     background-size: contain;
-    padding: 20px;
+    padding: 30px;
     padding-bottom: 80px;
     color: white;
     /* height: 100vh; */
@@ -11,7 +11,7 @@
 .main__container {
     backdrop-filter: blur(5px);
     margin: 40px;
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.479); 
     border-radius: 10px;
     border: 1px solid white;
