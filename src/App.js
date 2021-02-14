@@ -5,7 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 import About from './About';
 import Main from './Main';
-import Other from './Other';
+import Rigamarole from './Rigamarole';
 import Secret from './Secret'
 
 class App extends Component {
@@ -22,13 +22,13 @@ class App extends Component {
   
             <Route path='/other'>
               <Header active='other' /> 
-              <Other />
+              <Rigamarole />
             </Route>
   
             <Route path='/secret'>
               <Secret />
             </Route>
-            
+
             <Route path='/'>
               <Header active='main' /> 
               <Main />

@@ -127,8 +127,8 @@ a {
 
 /* submit button */
 .pageclip-form__submit {
-    background-color: white;
-    color: gray;
+    background-color: rgba(169, 201, 169, 0.781);   
+    color: white;
     width: 20%;
     margin-top: 10px;
     margin-left: auto;
@@ -138,4 +138,9 @@ a {
     border-radius: 5px;
     padding: 7px;
     cursor: pointer;
+}
+
+.pageclip-form__submit:hover {
+    background-color:  rgba(222, 243, 222, 0.842);
+    color: black;
 }
