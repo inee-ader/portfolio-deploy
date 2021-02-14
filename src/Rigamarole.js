@@ -7,7 +7,7 @@ const Rigamarole = () => {
     return (
         <div className="rigamarole">
             <div className="rigamarole__container">
-                <h1> Look at this orange nonsense </h1>
+                <h1> Look at this bird nonsense </h1>
             </div>
         </div>
     );
