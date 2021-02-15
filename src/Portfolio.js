@@ -70,9 +70,9 @@ const Portfolio = () => {
                 <div className="contact__form-div">
                         <h2 className="contact__h">Reach out to me</h2>
                         <form action="https://send.pageclip.co/KsNCmYc4KYuibLzdlLAo0Z0B3yz0atJh" className="contact__form" method="post">
-                            <input className="contact__input" type="text" name="name" placeholder="your name" />
-                            <input className="contact__input" type="email" name="email" placeholder="you@youremail.com" />
-                            <textarea className="contact__message" type="text" name="message" placeholder="What's up?"></textarea>
+                            <input className="contact__input" type="text" name="name" placeholder="Your beautiful name" />
+                            <input className="contact__input" type="email" name="email" placeholder="Your cool email" />
+                            <textarea className="contact__message" type="text" name="message" placeholder="Your sweet message"></textarea>
                             <button type="submit" class="pageclip-form__submit">
                             <span>Send</span>
                             </button>
