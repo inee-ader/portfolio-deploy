@@ -4,7 +4,7 @@ import './About.css'
 
 const About = () => {
 
-    const [onHover, setHover] = useState("")
+    // const [onHover, setHover] = useState("")
 
     return (
         <div className="about">
