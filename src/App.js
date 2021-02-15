@@ -33,7 +33,6 @@ class App extends Component {
               <Header active='main' /> 
               <Main />
             </Route>
-
   
           </Switch>
   

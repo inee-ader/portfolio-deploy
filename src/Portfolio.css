@@ -24,6 +24,9 @@
 
 .portfolio__intro {
     font-size: 20px;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
     margin: 50px;
 }
 
@@ -56,7 +59,7 @@
     width: 90%;
     height: 96%;
     border-radius: 10px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 a {
@@ -67,7 +70,6 @@ a {
 .project > p {
     padding: 7px;
     font-style: italic;
-   
 }
 
 .project__icons {
@@ -80,6 +82,13 @@ a {
 .project-github-icon {
     object-fit: contain;
     width: 45px;
+}
+
+.sidenote {
+    padding: 30px;
+    color: yellow;
+    font-size: 20px;
+    font-style: italic;
 }
 
 .portfolio__me4 {

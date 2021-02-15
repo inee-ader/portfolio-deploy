@@ -9,6 +9,9 @@ const Rigamarole = () => {
             <div className="rigamarole__container">
                 <h1> Look at this bird nonsense </h1>
             </div>
+            <div>
+                
+            </div>
         </div>
     );
 }

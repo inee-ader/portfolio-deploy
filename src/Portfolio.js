@@ -35,7 +35,7 @@ const Portfolio = () => {
                     <div className="project__image-div">
                         <img className="project__image" src={FSPic} alt="Feather and Stone App"></img>
                     </div>
-                    <p>Write about your day's highlight and lowpoint in this simple journal-entry app for peaceful self-reflection. Watch the little snail travel across your screen for 5 minutes while you write.</p>
+                    <p>Write about your day's highlight and lowpoint in this simple journal-entry app for peaceful self-reflection. Watch the snail travel across your screen while you write.</p>
                     <b>Built with: Ruby on Rails, Javascript, SQLite3, and vanilla CSS.</b>
                     <div className="project__icons">
                         <a target="_blank" rel="noreferrer" href="https://github.com/inee-ader/frontend-fs">
@@ -64,6 +64,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
+            <p className="sidenote">I am looking for a co-partner for FacePlant, to format for deployment and add more features. I think it could be very popular and I'm hoping to find someone with equal passion for this project to join me!</p>
             <div className="portfolio__image-form">
                 <img className="portfolio__me4" src={me4} alt="me"></img>
                 <div className="contact__form-div">
