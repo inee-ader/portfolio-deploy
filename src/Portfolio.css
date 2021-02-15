@@ -13,7 +13,6 @@
     padding-top: 3px;
     padding-bottom: 0;
     background-color: rgba(0, 0, 0, 0.2);
-    /* border-radius: 10px; */
     border: 1px solid white;
     max-width: 1300px;
 }
@@ -37,19 +36,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* display: none; */
 }
 
 .project { 
     width: 300px;
-    /* flex: 1 1 300px; */
     max-width: 100%;
     color: white;
-    /* border: 1px solid white; */
     display: grid;
     padding: 10px;
     margin: 10px;
-    /* border-radius: 20px; */
     background-color: rgba(0, 0, 0, 0.4);
 }
 @media (max-width: 1101px) {
@@ -68,8 +63,6 @@
     width: 90%;
     height: 96%;
     border-radius: 10px;
-    /* display: none; */
-    /* border: 1px solid white; */
 }
 
 .project__link {

@@ -14,10 +14,11 @@ const About = () => {
                                     
                     <article 
                         className="about__column" 
-                        onMouseEnter={() => setHover("history")} 
-                        onMouseLeave={() => setHover("")}>
+                        // onMouseEnter={() => setHover("history")} 
+                        // onMouseLeave={() => setHover("")}
+                        >
                         <h4>History</h4>
-                        {onHover === 'history' && 
+                        {/* {onHover === 'history' &&  */}
                             <div>
                                 <br></br>
                                 <ul>
@@ -31,36 +32,40 @@ const About = () => {
                                 <br></br>
                                 <p>Flipped my whole career field from health and nutrition into tech, October 2020, without any previous experience in coding, and I've been engrossed ever since! I know I still have a lot to learn, but I'm ready to absorb all I can!</p>
                             </div>
-                        }
+                        {/* } */}
                     </article>
 
                     <article 
                         className="about__column" 
-                        onMouseEnter={() => setHover("hobbies")} 
-                        onMouseLeave={() => setHover("")}>
+                        // onMouseEnter={() => setHover("hobbies")} 
+                        // onMouseLeave={() => setHover("")}
+                        >
                         <h4>Hobbies</h4>
-                        {onHover === "hobbies" && 
+                        {/* {onHover === "hobbies" &&  */}
                             <div>
                                 <br></br>
                                 <ul>
                                     <li>Being cozy is my favorite emotion</li>
                                     <li>House plant care and husbandry</li>
                                     <li>18th Century cooking and recipes</li>
-                                    <li>Building relationship and rapport with Ravens</li>
-                                    <li>World of Warcraft/Diablo III</li>
+                                    <li>Building relationship and rapport with the local ravens</li>
+                                    <li>World of Warcraft & Diablo III</li>
                                     <li>Marie Kondo-inspired organizing</li>
                                     <li>Watercolor and Acrylic painting</li>
                                     <li>Connecting with nature through ritual</li>
+                                    <li>Making portfolio websites</li>
+                                    <li>Flexing my creativity muscle</li>
                                 </ul>
                             </div>
-                        }
+                        {/* } */}
                     </article>
 
                     <article className="about__column" 
-                        onMouseEnter={() => setHover("looking")} 
-                        onMouseLeave={() => setHover("")}>
+                        // onMouseEnter={() => setHover("looking")} 
+                        // onMouseLeave={() => setHover("")}
+                        >
                         <h4>What I'm looking for</h4>
-                        {onHover === "looking" &&
+                        {/* {onHover === "looking" && */}
                             <div>
                                 <br></br>
                                 <p>...in a work environment: </p>
@@ -73,16 +78,18 @@ const About = () => {
                                     <li>Conducive to skills improvement</li>
                                     <li>Clear communication</li>
                                     <li>Mentorship</li>
+                                    <li>Projects that enhance and inspire the human experience</li>
                                 </ul>
                             </div>
-                        }
+                        {/* } */}
                     </article>
 
                     <article className="about__column" 
-                        onMouseEnter={() => setHover("personality")} 
-                        onMouseLeave={() => setHover("")}>
+                        // onMouseEnter={() => setHover("personality")} 
+                        // onMouseLeave={() => setHover("")}
+                        >
                         <h4>Personality Traits: </h4>
-                        {onHover === "personality" && 
+                        {/* {onHover === "personality" &&  */}
                             <div className="about__column-hover">   
                                 <br></br>
                                 <ul>
@@ -97,7 +104,7 @@ const About = () => {
                                     <li>Acknowledges shortcomings and works to improve</li>
                                 </ul>
                             </div>
-                        }
+                        {/* } */}
                     </article>
 
                 </div>
