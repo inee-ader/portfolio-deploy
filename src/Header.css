@@ -9,7 +9,7 @@
     z-index: 100;
     border-bottom: 1px solid white;
     color: white;
-    display: none;
+    /* display: none; */
 }
 
 .header__name {
@@ -39,14 +39,12 @@
     list-style: none;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.header > ul > a {
+.header__link {
     text-decoration: none;
     color: white;
-}
-
-.header > ul > a > li {
     font-size: 20px;
     padding-right: 20px;
     cursor: pointer;

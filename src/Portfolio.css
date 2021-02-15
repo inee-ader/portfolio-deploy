@@ -34,7 +34,7 @@
 .portfolio__project-container {
     padding: 10px;
     text-align: center;
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     /* display: none; */
@@ -42,6 +42,8 @@
 
 .project { 
     width: 300px;
+    /* flex: 1 1 300px; */
+    max-width: 100%;
     color: white;
     /* border: 1px solid white; */
     display: grid;
@@ -49,6 +51,11 @@
     margin: 10px;
     /* border-radius: 20px; */
     background-color: rgba(0, 0, 0, 0.4);
+}
+@media (max-width: 1101px) {
+    .project {
+        flex: 1 1 100%;
+    }
 }
 
 .project__name {
@@ -61,10 +68,11 @@
     width: 90%;
     height: 96%;
     border-radius: 10px;
+    /* display: none; */
     /* border: 1px solid white; */
 }
 
-a {
+.project__link {
     text-decoration: none;
     color: white;
 }

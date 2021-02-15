@@ -5,7 +5,6 @@ import FSPic from './pictures/F&S.png';
 import PetBattlePic from './pictures/PetBattle.png';
 import me4 from './pictures/me4.png'
 
-
 const Portfolio = () => {
     return (
         <div className="portfolio__container">
@@ -21,10 +20,10 @@ const Portfolio = () => {
                     <p>A social media platform for house plant enthusiasts! Catalogue your plant collection, adore other's plants, and comment your appreciation.</p>
                     <b>Built with: Ruby on Rails, PostgreSQL, Javascript, React, TheNounProject icon API, and vanilla CSS.</b>
                     <div className="project__icons">
-                        <a target="_blank" rel="noreferrer" href="https://github.com/inee-ader/FRONT-faceplant">
+                        <a className="project__link" target="_blank" rel="noreferrer" href="https://github.com/inee-ader/FRONT-faceplant">
                             <img src="https://img.icons8.com/ios-glyphs/2x/ffffff/github.png" alt="github" className="project-github-icon"></img>
                         </a>
-                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=QobMlju2xlM&t=4s&ab_channel=IneeAder">
+                        <a className="project__link" target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=QobMlju2xlM&t=4s&ab_channel=IneeAder">
                             <img src="https://img.icons8.com/color/2x/youtube-play.png" alt="youtube" className="project-youtube-icon" ></img>
                         </a>
                     </div>
@@ -38,10 +37,10 @@ const Portfolio = () => {
                     <p>Write about your day's highlight and lowpoint in this simple journal-entry app for peaceful self-reflection. Watch the snail travel across your screen while you write.</p>
                     <b>Built with: Ruby on Rails, Javascript, SQLite3, and vanilla CSS.</b>
                     <div className="project__icons">
-                        <a target="_blank" rel="noreferrer" href="https://github.com/inee-ader/frontend-fs">
+                        <a className="project__link" target="_blank" rel="noreferrer" href="https://github.com/inee-ader/frontend-fs">
                             <img src="https://img.icons8.com/ios-glyphs/2x/ffffff/github.png" alt="github" className="project-github-icon"></img>
                         </a>
-                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=xvJbh2iKgVw&t=1s&ab_channel=IneeAder">
+                        <a className="project__link" target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=xvJbh2iKgVw&t=1s&ab_channel=IneeAder">
                             <img src="https://img.icons8.com/color/2x/youtube-play.png" alt="youtube" className="project-youtube-icon" ></img>
                         </a>
                     </div>
@@ -55,10 +54,10 @@ const Portfolio = () => {
                     <p>Choose your team of 3 pet companions and battle the boss! No pets were harmed in the making of this game.</p>
                     <b>Built with: Ruby on Rails, Javascript, React, Blizzard's Pet API, and Bootstrap-React.</b>
                     <div className="project__icons">
-                        <a target="_blank" rel="noreferrer" href="https://github.com/inee-ader/front-PetBattle">
+                        <a className="project__link" target="_blank" rel="noreferrer" href="https://github.com/inee-ader/front-PetBattle">
                             <img src="https://img.icons8.com/ios-glyphs/2x/ffffff/github.png" alt="github" className="project-github-icon"></img>
                         </a>
-                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=28-tl7ifg44&ab_channel=IneeAder">
+                        <a className="project__link" target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=28-tl7ifg44&ab_channel=IneeAder">
                             <img src="https://img.icons8.com/color/2x/youtube-play.png" alt="youtube" className="project-youtube-icon" ></img>
                         </a>
                     </div>

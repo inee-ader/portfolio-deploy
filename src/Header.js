@@ -45,17 +45,17 @@ class Header extends Component {
                     </div>
                 </Link>
                 <ul>
-                    <Link to="/">
-                        <li className={this.props.active === 'main' ? 'header__main--active' : 'header__inactive'} >Main</li>
-                    </Link>
+                    <li >
+                        <Link className={`header__link ${this.props.active === 'main' ? 'header__main--active' : 'header__inactive'}`} to="/">Main</Link>
+                    </li>
     
-                    <Link to="/about">
-                        <li className={this.props.active === 'about' ? 'header__about--active' : 'header__inactive'} >About</li>
-                    </Link>
+                    <li >
+                        <Link className={`header__link ${this.props.active === 'about' ? 'header__about--active' : 'header__inactive'}`} to="/about">About</Link>
+                    </li>
     
-                    <Link to="/other">
-                        <li className={this.props.active === 'other' ? 'header__other--active' : 'header__inactive'} >Rigamarole</li>
-                    </Link>
+                    <li >
+                        <Link className={`header__link ${this.props.active === 'other' ? 'header__other--active' : 'header__inactive'}`} to="/other">Rigamarole</Link>
+                    </li>
                 </ul>
             </div>
         );
