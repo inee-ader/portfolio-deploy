@@ -42,6 +42,7 @@ class Header extends Component {
                 </div>
                 <Link to='/secret' className="header__secret">
                     <div>
+                        <br></br>
                     </div>
                 </Link>
                 <ul>

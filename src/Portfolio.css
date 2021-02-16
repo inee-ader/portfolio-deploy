@@ -10,7 +10,6 @@
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 3px;
     padding-bottom: 0;
     background-color: rgba(0, 0, 0, 0.2);
     border: 1px solid white;
@@ -27,7 +26,12 @@
     color: white;
     font-weight: bold;
     line-height: 30px;
-    margin: 50px;
+    margin: 35px;
+}
+@media (max-width: 414px) {
+    .portfolio__intro {
+        font-size: 15px;
+    }
 }
 
 .portfolio__project-container {

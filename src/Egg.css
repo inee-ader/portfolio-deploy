@@ -1,0 +1,43 @@
+
+.eggs {
+    background: url('./pictures/orange-fly-d.jpg');
+    background-size: contain;
+    padding: 100px;
+    height: 100vh;
+    color: orange;
+}
+
+.eggs__container {
+    margin: 20px;
+    margin-right: auto; 
+    margin-left: auto;
+    width: 40%;
+}
+
+.eggs__container:hover {
+    background-color: red;
+
+}
+
+.eggs__list {
+    border: 5px solid orange;
+    padding: 20px;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.eggs__list > a {
+    text-decoration: none;
+    color: orange;
+    cursor: pointer;
+}
+
+.eggs__list >a:hover {
+    color: yellow;
+}
+
+.eggs__list > ul {
+    list-style: square;
+    margin-right: auto; 
+    margin-left: auto;
+}

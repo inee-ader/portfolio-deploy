@@ -6,6 +6,8 @@
     left: 0;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .link__icons {
@@ -21,4 +23,15 @@
 
 .icon__resume {
     width: 60px;
+}
+
+.egg__image {
+    object-fit: contain;
+    width: 30px;
+    margin-right: 15px;
+}
+@media (max-width: 411px) {
+    .egg__img {
+        display: none;
+    }
 }

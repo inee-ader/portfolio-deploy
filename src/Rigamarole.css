@@ -12,7 +12,18 @@
     padding: 20px;
 }
 
-.rigamarole__me1 {
-    border-radius: 90px;
+.rigamarole__button-div {
+    position: relative;
+    top: 70%;
+}
 
+.rigamarole__peace-button {
+    background-color: rgb(65, 26, 4);
+    color: rgb(252, 241, 230);
+    width: auto;
+    font-size: 12px;
+    border: none;
+    border-radius: 90px;
+    padding: 10px;
+    cursor: pointer;
 }

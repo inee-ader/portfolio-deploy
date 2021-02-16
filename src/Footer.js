@@ -1,5 +1,7 @@
 import React from 'react';
 import './Footer.css'
+import { Link } from 'react-router-dom'
+
 
 const Footer = () => {
     return (
@@ -18,6 +20,9 @@ const Footer = () => {
                     <img className="icon__resume" src='https://img.icons8.com/fluent-systems-regular/2x/ffffff/regular-document.png' alt="resume and cover letter" ></img>
                 </a>
             </div>
+            <Link to="/eggs" className="footer__eggs">
+                <img className="egg__image" src="https://img.icons8.com/?id=HOKOLx6gSDDY&size=2x&color=000000" alt="hidden eggs"></img>
+            </Link>
         </div>
     );
 }
