@@ -7,7 +7,7 @@
 
 .portfolio__container { 
     backdrop-filter: blur(5px);
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 0;
@@ -51,7 +51,7 @@
     margin: 10px;
     background-color: rgba(0, 0, 0, 0.4);
 }
-@media (max-width: 1101px) {
+@media (min-width: 761) and (max-width: 1101px) {
     .project {
         flex: 1 1 100%;
     }
