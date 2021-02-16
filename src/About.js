@@ -1,6 +1,6 @@
 import React from 'react';
 // { useState } from 'react
-import './About.css'
+import './styles/About.css'
 
 
 const About = () => {

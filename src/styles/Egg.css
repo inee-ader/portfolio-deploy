@@ -1,6 +1,6 @@
 
 .eggs {
-    background: url('./pictures/orange-fly-d.jpg');
+    background: url('../pictures/orange-fly-d.jpg');
     background-size: contain;
     padding: 100px;
     height: 90vh;

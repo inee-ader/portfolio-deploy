@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Peace.css'
+import './styles/Peace.css'
 
 class Peace extends Component{
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Egg.css'
+import './styles/Egg.css'
 import { Link } from 'react-router-dom'
 
 

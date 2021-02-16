@@ -1,7 +1,7 @@
 
 .rigamarole {
     height: 100vh;
-    background: url('./pictures/bird-nonsense-mcgill-library.jpg');
+    background: url('../pictures/bird-nonsense-mcgill-library.jpg');
     background-size: cover;
     padding: 20px;
     color: white;

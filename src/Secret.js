@@ -1,5 +1,5 @@
 import React from 'react';
-import './Secret.css'
+import './styles/Secret.css'
 import { Link } from 'react-router-dom'
 
 const Secret = () => {

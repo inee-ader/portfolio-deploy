@@ -1,5 +1,5 @@
 import React from 'react';
-import './Portfolio.css';
+import './styles/Portfolio.css';
 import FacePlantPic from './pictures/FacePlant.png';
 import FSPic from './pictures/F&S.png';
 import PetBattlePic from './pictures/PetBattle.png';

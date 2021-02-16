@@ -1,5 +1,5 @@
 import React from 'react';
-import './Rigamarole.css'
+import './styles/Rigamarole.css'
 import { Link } from 'react-router-dom'
 
 // import me1 from './pictures/me1.png'

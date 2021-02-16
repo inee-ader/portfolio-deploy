@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Header.css';
+import './styles/Header.css';
 import { Link } from 'react-router-dom'
 import hello from './audio/helloiminee.mp3'
 
