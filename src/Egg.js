@@ -10,12 +10,12 @@ const Egg = () => {
                 <div className="eggs__list">
                     <p>Did you find all the hidden things?</p>
                     <p>Clues:</p>
-                    <ul>
+                    <ol>
                         <li>How do I pronounce "Inée"?</li>
                         <li>Something strange in the header</li>
-                    </ul>
+                    </ol>
                     <Link to='/'>
-                        <p>((--</p>
+                        <p>{"<<"}</p>
                     </Link>
                 </div>
             </div>

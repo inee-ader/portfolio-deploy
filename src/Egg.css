@@ -3,7 +3,7 @@
     background: url('./pictures/orange-fly-d.jpg');
     background-size: contain;
     padding: 100px;
-    height: 100vh;
+    height: 90vh;
     color: orange;
 }
 
@@ -16,7 +16,6 @@
 
 .eggs__container:hover {
     background-color: red;
-
 }
 
 .eggs__list {
@@ -36,8 +35,7 @@
     color: yellow;
 }
 
-.eggs__list > ul {
-    list-style: square;
+.eggs__list > ol {
     margin-right: auto; 
     margin-left: auto;
 }
