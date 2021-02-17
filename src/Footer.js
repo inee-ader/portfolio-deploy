@@ -16,7 +16,7 @@ const Footer = () => {
                 <a target='_blank' rel="noreferrer" href='https://dev.to/ineeader'>
                     <img className="icon__dev" src='https://img.icons8.com/windows/2x/ffffff/dev.png' alt='dev.to blog'></img>
                 </a>
-                <a target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/1vJqbct6gjl9gsbODTzJ_3AOdoCxIS8Sr/view?usp=sharing'>
+                <a target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/1t8uqja4INgkUeFRRnNaQtnfbvYnCONhG/view?usp=sharing'>
                     <img className="icon__resume" src='https://img.icons8.com/fluent-systems-regular/2x/ffffff/regular-document.png' alt="resume and cover letter" ></img>
                 </a>
             </div>
