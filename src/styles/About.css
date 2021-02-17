@@ -2,7 +2,7 @@
 .about {
     background: url('../pictures/crystal-carole-smile.jpg');
     background-size: contain;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 10px;
     color: rgb(131, 131, 131);
     text-shadow: 2px 2px 15px white;
@@ -16,12 +16,14 @@
 
 .about__container { 
     padding: 20px;
+    padding-bottom: 20px;
 }
 
 .about__columns {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
 }
 
 .about__column {
@@ -29,11 +31,12 @@
     max-width: 400px;
     height: auto;
     border: 1px dotted white;
-    margin-top: 20px;
+    /* margin-top: 10px; */
+    margin-bottom: 100px;
     padding: 10px;
     cursor: default;
     border-radius: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     position: relative;
 }
 @media (max-width: 903) {

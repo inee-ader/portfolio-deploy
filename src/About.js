@@ -5,8 +5,6 @@ import './styles/About.css'
 
 const About = () => {
 
-    // const [onHover, setHover] = useState("")
-
     return (
         <div className="about">
             <div className="about__container">
