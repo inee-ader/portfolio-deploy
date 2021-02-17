@@ -5,6 +5,7 @@
     padding: 100px;
     height: 100vh;
     color: orange;
+    padding-bottom: 30px;
 }
 @media (max-width: 414px) {
     .eggs {
@@ -13,22 +14,22 @@
 }
 
 .eggs__container {
-    margin: 20px;
+    margin: 10px;
     justify-content: center;
     margin-right: auto; 
     margin-left: auto;
     width: 100%;
 }
-@media (max-width: 414px) {
-    .eggs__container {
-        margin-top: 200px;
-    }
-}
-@media (max-width: 320px) {
+/* @media (max-width: 414px) {
     .eggs__container {
         margin-top: 100px;
     }
-}
+} */
+/* @media (max-width: 320px) {
+    .eggs__container {
+        margin-top: 80px;
+    }
+} */
 
 .eggs__container:hover {
     background-color: red;
