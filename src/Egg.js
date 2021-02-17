@@ -8,11 +8,11 @@ const Egg = () => {
         <div className="eggs">
             <div className="eggs__container">
                 <div className="eggs__list">
-                    <p>Did you find all the hidden things?</p>
-                    <p>Clues:</p>
+                    <p className="eggs__p">Did you find all the hidden things?</p>
+                    <p className="eggs__p">Clues:</p>
                     <ol>
-                        <li>How do I pronounce "Inée"?</li>
-                        <li>Something strange in the header</li>
+                        <li className="eggs__clue">How do I pronounce "Inée"?</li>
+                        <li className="eggs__clue">Something strange in the header</li>
                     </ol>
                     <Link to='/'>
                         <p>{"<<"}</p>

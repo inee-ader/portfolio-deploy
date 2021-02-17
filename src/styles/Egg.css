@@ -3,32 +3,101 @@
     background: url('../pictures/orange-fly-d.jpg');
     background-size: contain;
     padding: 100px;
-    height: 90vh;
+    height: 100vh;
     color: orange;
+}
+@media (max-width: 414px) {
+    .eggs {
+        padding: 20px;
+    }
 }
 
 .eggs__container {
     margin: 20px;
+    justify-content: center;
     margin-right: auto; 
     margin-left: auto;
-    width: 40%;
+    width: 100%;
+}
+@media (max-width: 414px) {
+    .eggs__container {
+        margin-top: 200px;
+    }
+}
+@media (max-width: 320px) {
+    .eggs__container {
+        margin-top: 100px;
+    }
 }
 
 .eggs__container:hover {
     background-color: red;
+    cursor: pointer;
 }
 
 .eggs__list {
     border: 5px solid orange;
-    padding: 20px;
+    padding: 30px;
+    font-size: 40px;
     margin-right: auto; 
     margin-left: auto;
+}
+@media (max-width: 1024px) {
+    .eggs__list {
+        font-size: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .eggs__list {
+        font-size: 25px;
+    }
+}
+@media (max-width: 540px) {
+    .eggs__list {
+        font-size: 20px;
+    }
+}
+
+.eggs__p {
+    font-size: 40px;
+}
+@media (max-width: 1024px) {
+    .eggs__p {
+        font-size: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .eggs__p {
+        font-size: 25px;
+    }
+}
+@media (max-width: 500px) {
+    .eggs__p {
+        font-size: 20px;
+    }
 }
 
 .eggs__list > a {
     text-decoration: none;
     color: orange;
     cursor: pointer;
+    font-size: 40px;
+    padding: 10px;
+}
+@media (max-width: 1024px) {
+    .eggs__list > a {
+        font-size: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .eggs__list > a {
+        font-size: 25px;
+    }
+}
+@media (max-width: 500px) {
+    .eggs__list > a {
+        font-size: 20px;
+    }
 }
 
 .eggs__list >a:hover {
@@ -38,4 +107,24 @@
 .eggs__list > ol {
     margin-right: auto; 
     margin-left: auto;
+}
+
+.eggs__clue {
+    padding: 30px;
+    font-size: 40px;
+}
+@media (max-width: 1024px) {
+    .eggs__clue {
+        font-size: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .eggs__clue {
+        font-size: 25px;
+    }
+}
+@media (max-width: 500px) {
+    .eggs__clue {
+        font-size: 20px;
+    }
 }

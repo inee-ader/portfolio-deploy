@@ -20,6 +20,16 @@
     margin-right: 15px;
     object-fit: contain;
 }
+@media (max-width: 540px) {
+    .link__icons > a > img {
+        width: 40px;
+    }
+}
+@media (max-width: 320px) {
+    .link__icons > a > img {
+        width: 30px;
+    }
+}
 
 .icon__resume {
     width: 60px;

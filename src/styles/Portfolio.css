@@ -31,6 +31,7 @@
 @media (max-width: 414px) {
     .portfolio__intro {
         font-size: 15px;
+        margin: 20px;
     }
 }
 
@@ -51,7 +52,7 @@
     margin: 10px;
     background-color: rgba(0, 0, 0, 0.4);
 }
-@media (min-width: 761) and (max-width: 1101px) {
+@media (min-width: 761px) and (max-width: 1101px) {
     .project {
         flex: 1 1 100%;
     }
@@ -78,6 +79,20 @@
     padding: 7px;
     font-style: italic;
 }
+@media (max-width: 320px) {
+    .project > p {
+        display: none;
+    }
+}
+
+.project > b {
+    font-size: 18px;
+}
+@media (max-width: 320px) {
+    .project > b {
+        font-size: 12px;
+    }
+}
 
 .project__icons {
     display: flex;
@@ -98,6 +113,13 @@
     font-size: 20px;
     font-style: italic;
     padding-bottom: 10px;
+}
+@media (max-width: 320px) {
+    .sidenote {
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 .portfolio__image-form {
@@ -144,6 +166,7 @@
     /* width: 98%; */
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
 }
 
 .contact__message {
