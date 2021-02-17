@@ -2,17 +2,21 @@
 .about {
     background: url('../pictures/crystal-carole-smile.jpg');
     background-size: contain;
-    /* height: 100vh; */
     padding: 10px;
     color: rgb(131, 131, 131);
     text-shadow: 2px 2px 15px white;
     font-size: 20px;
 }
-@media (min-width: 1024px) {
+/* @media (max-width: 2000px) {
     .about {
         height: 100vh;
     }
-}
+} */
+/* @media (max-width: 1024px) {
+    .about {
+        height: 100vh;
+    }
+} */
 
 .about__headline { 
     text-align: center;
