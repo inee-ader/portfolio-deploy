@@ -8,6 +8,11 @@
     text-shadow: 2px 2px 15px white;
     font-size: 20px;
 }
+@media (min-width: 1024px) {
+    .about {
+        height: 100vh;
+    }
+}
 
 .about__headline { 
     text-align: center;
