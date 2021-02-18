@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Secret = () => {
     return (
         <div className="secret">
-            <p>You're a curious one, aren't you? I like that.</p>
+            <p className="secret__p">You're a curious one, aren't you? I like that.</p>
 
             <div className="secret__button-container">
                 <Link to='/'>
@@ -14,6 +14,7 @@ const Secret = () => {
                     </button>
                 </Link>
             </div>
+            <p className="secret__credit">Picture by my friend, Jacy Oliver of Potion Productions</p>
         </div>
     );
 }

@@ -6,6 +6,7 @@
     color: rgb(131, 131, 131);
     text-shadow: 2px 2px 15px white;
     font-size: 20px;
+    min-width: 280px;
 }
 @media (max-width: 2000px) {
     .about {
@@ -17,6 +18,7 @@
         height: 100vh;
     }
 }
+
 
 .about__headline { 
     text-align: center;
