@@ -1,7 +1,7 @@
 
 .about {
     background: url('../pictures/crystal-carole-smile.jpg');
-    background-size: contain;
+    background-size: cover;
     padding: 10px;
     color: rgb(131, 131, 131);
     text-shadow: 2px 2px 15px white;
@@ -18,7 +18,11 @@
         height: 100vh;
     }
 }
-
+@media (max-width: 1750px) {
+    .about {
+        height: 150vh;
+    }
+}
 
 .about__headline { 
     text-align: center;
@@ -27,7 +31,7 @@
 
 .about__container { 
     padding: 20px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .about__columns {
@@ -66,6 +70,26 @@ ul {
     list-style: circle;
 }
 
+.about__plant__div {
+    /* background-color: black; */
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+.about__plant__button {
+    padding: 30px;
+    font-size: 50px;
+    width: 80%;
+    border: none;
+    background-color: rgb(134, 161, 134);
+    color: white;
+    border-radius: 50px;
+}
+
+.about__plant__button:hover {
+    background-color: rgb(165, 187, 165);
+
+}
 
 
 /* .about__me1 {

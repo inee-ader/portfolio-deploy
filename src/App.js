@@ -6,6 +6,7 @@ import Footer from './Footer';
 import About from './About';
 import Main from './Main';
 import Rigamarole from './Rigamarole';
+import Plants from './Plants'
 import Secret from './Secret'
 import Peace from './Peace'
 import Egg from './Egg'
@@ -26,6 +27,12 @@ class App extends Component {
             <Route path='/other'>
               <Header active='other' /> 
               <Rigamarole />
+              <Footer />
+            </Route>
+
+            <Route path='/plants'>
+              <Header active='plants' />
+              <Plants />
               <Footer />
             </Route>
   

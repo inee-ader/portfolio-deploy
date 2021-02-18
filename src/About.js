@@ -1,6 +1,7 @@
 import React from 'react';
 // { useState } from 'react
 import './styles/About.css'
+import { Link } from 'react-router-dom'
 
 
 const About = () => {
@@ -10,14 +11,10 @@ const About = () => {
             <div className="about__container">
             <h1 className="about__headline">Just Human Things...</h1>
                 <div className="about__columns">
-                                    
+         
                     <article 
-                        className="about__column" 
-                        // onMouseEnter={() => setHover("history")} 
-                        // onMouseLeave={() => setHover("")}
-                        >
+                        className="about__column">
                         <h4>History</h4>
-                        {/* {onHover === 'history' &&  */}
                             <div>
                                 <br></br>
                                 <ul>
@@ -31,16 +28,11 @@ const About = () => {
                                 <br></br>
                                 <p>Flipped my whole career field from health and nutrition into tech, October 2020, without any previous experience in coding, and I've been engrossed ever since! I know I still have a lot to learn, but I'm ready to absorb all I can!</p>
                             </div>
-                        {/* } */}
                     </article>
 
                     <article 
-                        className="about__column" 
-                        // onMouseEnter={() => setHover("hobbies")} 
-                        // onMouseLeave={() => setHover("")}
-                        >
+                        className="about__column">
                         <h4>Hobbies</h4>
-                        {/* {onHover === "hobbies" &&  */}
                             <div>
                                 <br></br>
                                 <ul>
@@ -56,15 +48,10 @@ const About = () => {
                                     <li>Flexing my creativity muscle</li>
                                 </ul>
                             </div>
-                        {/* } */}
                     </article>
 
-                    <article className="about__column" 
-                        // onMouseEnter={() => setHover("looking")} 
-                        // onMouseLeave={() => setHover("")}
-                        >
+                    <article className="about__column">
                         <h4>What I'm looking for</h4>
-                        {/* {onHover === "looking" && */}
                             <div>
                                 <br></br>
                                 <p>...in a work environment: </p>
@@ -80,15 +67,10 @@ const About = () => {
                                     <li>Projects that enhance and inspire the human experience</li>
                                 </ul>
                             </div>
-                        {/* } */}
                     </article>
 
-                    <article className="about__column" 
-                        // onMouseEnter={() => setHover("personality")} 
-                        // onMouseLeave={() => setHover("")}
-                        >
+                    <article className="about__column" >
                         <h4>Personality Traits: </h4>
-                        {/* {onHover === "personality" &&  */}
                             <div className="about__column-hover">   
                                 <br></br>
                                 <ul>
@@ -103,9 +85,13 @@ const About = () => {
                                     <li>Acknowledges shortcomings and works to improve</li>
                                 </ul>
                             </div>
-                        {/* } */}
                     </article>
 
+                </div>
+                <div className='about__plant__div'>
+                    <Link to='/plants'>
+                        <button className="about__plant__button">WANNA SEE MY PLANT COLLECTION?</button>
+                    </Link>
                 </div>
             </div>
         </div>
