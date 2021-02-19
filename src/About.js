@@ -15,7 +15,7 @@ const About = () => {
                     <article 
                         className="about__column">
                         <h4>History</h4>
-                            <div>
+                            <div className="about__info">
                                 <br></br>
                                 <ul>
                                     <li>B.S. - Pre-Medical Biology</li>
@@ -33,7 +33,7 @@ const About = () => {
                     <article 
                         className="about__column">
                         <h4>Hobbies</h4>
-                            <div>
+                            <div className="about__info">
                                 <br></br>
                                 <ul>
                                     <li>Being cozy is my favorite emotion</li>
@@ -52,7 +52,7 @@ const About = () => {
 
                     <article className="about__column">
                         <h4>What I'm looking for</h4>
-                            <div>
+                            <div className="about__info">
                                 <br></br>
                                 <p>...in a work environment: </p>
                                 <br></br>
@@ -71,7 +71,7 @@ const About = () => {
 
                     <article className="about__column" >
                         <h4>Personality Traits: </h4>
-                            <div className="about__column-hover">   
+                            <div className="about__info">   
                                 <br></br>
                                 <ul>
                                     <li>ENTHUSIASM!</li>

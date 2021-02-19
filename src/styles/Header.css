@@ -5,10 +5,11 @@
     font-size: 20px;
     padding: 20px;
     justify-content: space-between;
-    top: 0;
+    /* top: 0; */
     z-index: 100;
     border-bottom: 1px solid white;
     color: white;
+    /* width: 100%; */
 }
 
 .header__name {
