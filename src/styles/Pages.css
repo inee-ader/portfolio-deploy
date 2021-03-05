@@ -1,0 +1,86 @@
+
+.pages {
+    /* height: 100vh; */
+    background: url('../pictures/pink-texture-colin-watts.jpg');
+    background-size: cover;
+    padding: 100px;
+    margin-bottom: 20px;
+}
+@media (min-width: 280px) and (max-width: 540px) {
+    .pages {
+        padding: 20px;
+    }
+}
+@media (min-width: 541px) {
+    .pages {
+        height: 100vh;
+    }
+}
+
+.pages__title {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+@media (min-width: 280px) and (max-width: 540px) {
+    .pages__title {
+        font-size: 20px;
+    }
+}
+
+.pages__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pages__link {
+    text-decoration: none;
+}
+
+.pages__card {
+    width: 300px;
+    max-width: 100%;
+    display: grid;
+    padding: 10px;
+    border: 1px solid black; 
+    border-radius: 15px;
+    margin: 20px;
+    height: 90%;
+    background-color: rgba(53, 51, 63, 0.473);
+    backdrop-filter: blur(5px);
+}
+@media (min-width: 280px) and (max-width: 540px) {
+    .pages__card {
+        width: 200px;
+    }
+}
+@media (min-width: 541px) {
+    .pages__card {
+        width: 300px;
+    }
+}
+
+.pages__img__div {
+    object-fit: contain;
+    padding: 10px;
+}
+
+.pages__img {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.pages__h {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.pages__p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}

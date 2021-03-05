@@ -110,9 +110,17 @@
     padding-right: 40px;
     padding-left: 40px;
     color: yellow;
-    font-size: 20px;
-    font-style: italic;
+    font-size: 30px;
+    font-style: bold;
     padding-bottom: 10px;
+    text-align: center;
+}
+@media (max-width: 540px){
+    .sidenote {
+        font-size: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }
 @media (max-width: 320px) {
     .sidenote {
@@ -120,6 +128,10 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+}
+.sidenote:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .portfolio__image-form {
@@ -162,7 +174,6 @@
 
 .contact__form {
     display: grid;
-    /* width: 98%; */
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -170,10 +181,11 @@
 
 .contact__message {
     resize: none;
+    height: 100px;
 }
 
 .contact__input, .contact__message {
-    width: 90%;
+    width: 98%;
     padding: 10px;
     margin: 10px;
     border: none;
@@ -185,14 +197,14 @@
 /* submit button */
 .pageclip-form__submit {
     background-color: rgba(255, 255, 255, 0.781);   
-    color: black;
+    color: green;
     width: 20%;
     margin-top: 10px;
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 18px;
     border: none;
     border-radius: 5px;
-    padding: 7px;
+    padding: 8px;
     cursor: pointer;
 }
 

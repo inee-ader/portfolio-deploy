@@ -2,15 +2,7 @@ import React, { Component } from 'react';
 import './styles/Header.css';
 import { Link } from 'react-router-dom'
 import hello from './audio/helloiminee.mp3'
-
 import { Howl, Howler } from 'howler'
-
-// const audioClips = [
-//     {sound: hello, label: 'Hello'}, 
-//     {sound: ineee, label: 'Meee'}, 
-//     {sound: nice, label: 'Nice to meet you'}, 
-//     {sound: pronounce, label: 'Pronunciation'}
-// ]
 
 const helloIntro = [{sound: hello}]
 

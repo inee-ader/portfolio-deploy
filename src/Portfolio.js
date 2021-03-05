@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Portfolio.css';
+import { Link } from 'react-router-dom'
 import FacePlantPic from './pictures/FacePlant.png';
 import FSPic from './pictures/F&S.png';
 import PetBattlePic from './pictures/PetBattle.png';
@@ -28,7 +29,7 @@ const Portfolio = () => {
                         </a>
                     </div>
                 </div>
-
+                
                 <div className="project">
                     <h6 className="project__name">Feather & Stone</h6>
                     <div className="project__image-div">
@@ -63,7 +64,10 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <p className="sidenote">I am looking for a co-partner for FacePlant, to format for deployment and add more features. I think it could be very popular and I'm hoping to find someone with equal passion for this project to join me!</p>
+            <Link className='sidenote' to='/pages'>
+                <p>Check out the pages I've made for my friends!</p>
+            </Link>
+            
             <div className="portfolio__image-form">
                 <img className="portfolio__me4" src={me4} alt="me"></img>
                 <div className="contact__form-div">

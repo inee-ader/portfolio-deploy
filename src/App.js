@@ -10,6 +10,7 @@ import Plants from './Plants'
 import Secret from './Secret'
 import Peace from './Peace'
 import Egg from './Egg'
+import Pages from './Pages'
 
 class App extends Component {
   render() {
@@ -47,6 +48,12 @@ class App extends Component {
 
             <Route path='/eggs'>
               <Egg />
+            </Route>
+
+            <Route path='/pages'>
+              <Header />
+              <Pages />
+              <Footer />
             </Route>
 
             <Route path='/'>

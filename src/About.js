@@ -1,5 +1,4 @@
 import React from 'react';
-// { useState } from 'react
 import './styles/About.css'
 import { Link } from 'react-router-dom'
 

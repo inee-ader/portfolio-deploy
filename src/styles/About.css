@@ -2,8 +2,6 @@
 .about {
     background: url('../pictures/crystal-jene-yeo.jpg');
     background-size: cover;
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
     padding: 10px;
     font-size: 20px;
     min-width: 280px;
@@ -19,7 +17,6 @@
 
 .about__container { 
     padding: 20px;
-    /* padding-bottom: 20px; */
 }
 
 .about__columns {
