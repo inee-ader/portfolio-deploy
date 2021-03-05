@@ -64,7 +64,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <Link className='sidenote' to='/pages'>
+            <Link className='portfolio__pages__link' to='/pages'>
                 <p>Check out the pages I've made for my friends!</p>
             </Link>
             

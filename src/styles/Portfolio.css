@@ -106,7 +106,7 @@
     width: 45px;
 }
 
-.sidenote {
+.portfolio__pages__link {
     padding-right: 40px;
     padding-left: 40px;
     color: yellow;
@@ -114,22 +114,23 @@
     font-style: bold;
     padding-bottom: 10px;
     text-align: center;
+    text-decoration: none;
 }
 @media (max-width: 540px){
-    .sidenote {
+    .portfolio__pages__link {
         font-size: 25px;
         padding-left: 25px;
         padding-right: 25px;
     }
 }
 @media (max-width: 320px) {
-    .sidenote {
+    .portfolio__pages__link {
         font-size: 15px;
         padding-left: 20px;
         padding-right: 20px;
     }
 }
-.sidenote:hover {
+.portfolio__pages__link:hover {
     cursor: pointer;
     text-decoration: underline;
 }
