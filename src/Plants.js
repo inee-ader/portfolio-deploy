@@ -16,6 +16,7 @@ import TF from './pictures/plants/T.funckiana.JPG'
 import TM from './pictures/plants/T.magnusiana.JPG'
 import TS from './pictures/plants/T.stricta.JPG'
 import TV from './pictures/plants/T.velutina.JPG'
+import anth from './pictures/plants/anthurium.JPG'
 
 
 
@@ -104,6 +105,11 @@ const Plants = () => {
                     <div className='plant__card'>
                         <h4 className='plant__name'>Peperomia</h4>
                         <img className='plant__img' src={pep} alt='peperomia'></img>
+                    </div>
+
+                    <div className='plant__card'>
+                        <h4 className='plant__name'>Anthurium</h4>
+                        <img className='plant__img' src={anth} alt='anthurium'></img>
                     </div>
                     
                 </div>
