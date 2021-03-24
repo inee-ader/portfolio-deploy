@@ -56,7 +56,8 @@
 
 .header__main--active, 
 .header__about--active, 
-.header__other--active {
+.header__other--active, 
+.header__pages--active {
     color: rgb(255, 230, 0);
 }
 

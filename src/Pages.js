@@ -37,6 +37,7 @@ const Pages = () => {
             <div>
                 <hr></hr>
                 <br></br>
+                <h3 className='pages__title'>Alive and Kicking!</h3>
                 <div className='pages__container'>
                     <a className='pages__link' target='_blank' rel='noopener noreferrer' href='https://www.powersigils.com/'>
                         <div className='pages__card'>

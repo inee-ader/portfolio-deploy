@@ -32,7 +32,7 @@ class App extends Component {
             </Route>
 
             <Route path='/plants'>
-              <Header active='plants' />
+              <Header />
               <Plants />
               <Footer />
             </Route>
@@ -51,7 +51,7 @@ class App extends Component {
             </Route>
 
             <Route path='/pages'>
-              <Header />
+              <Header active='pages'/>
               <Pages />
               <Footer />
             </Route>

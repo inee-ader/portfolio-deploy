@@ -47,7 +47,7 @@ class Header extends Component {
                     </li>
     
                     <li>
-                        <Link className={`header__link ${this.props.active === 'pages' ? 'header__other--active' : 'header__inactive'}`} to='/pages'>Pages</Link>
+                        <Link className={`header__link ${this.props.active === 'pages' ? 'header__pages--active' : 'header__inactive'}`} to='/pages'>Pages</Link>
                     </li>
 
                     <li >
