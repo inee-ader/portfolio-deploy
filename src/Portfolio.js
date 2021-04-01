@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom'
 import FacePlantPic from './pictures/FacePlant.png';
 import FSPic from './pictures/F&S.png';
 import PetBattlePic from './pictures/PetBattle.png';
-import me4 from './pictures/me4.png'
+import me4 from './pictures/me4.png';
+import best from './pictures/best.jpg';
 
 const Portfolio = () => {
     return (
@@ -17,6 +18,11 @@ const Portfolio = () => {
                     <h6 className="project__name">FacePlant</h6>
                     <div className="project__image-div">
                         <img className="project__image" src={FacePlantPic} alt="FacePlant App"></img>
+                    </div>
+                    <div className="project__best__div">
+                        <a className='project__link' target="_blank" rel="noreferrer" href="https://careerkarma.com/discussions/projects/faceplant-520/">
+                            <img className='project__best__image' src={best} alt="Voted best project of the Month on Career Karma"></img>
+                        </a>
                     </div>
                     <p>A social media platform for house plant enthusiasts! Catalogue your plant collection, adore other's plants, and comment your appreciation.</p>
                     <b>Built with: Ruby on Rails, PostgreSQL, Javascript, React, TheNounProject icon API, and vanilla CSS.</b>

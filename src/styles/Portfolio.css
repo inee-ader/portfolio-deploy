@@ -70,6 +70,14 @@
     border-radius: 10px;
 }
 
+.project__best__div {
+    /* padding: 20px; */
+}
+
+.project__best__image{
+    width: 90%;
+}
+
 .project__link {
     text-decoration: none;
     color: white;
