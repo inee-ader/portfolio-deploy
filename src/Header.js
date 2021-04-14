@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './styles/Header.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import hello from './audio/helloiminee.mp3'
-import { Howl, Howler } from 'howler'
+import { Howl, Howler } from 'howler';
 
 const helloIntro = [{sound: hello}]
 

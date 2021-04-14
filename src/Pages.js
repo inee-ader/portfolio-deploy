@@ -16,7 +16,7 @@ const Pages = () => {
                             <div className='pages__img__div'>
                                 <img className='pages__img' src={KylePage} alt='Unified Purpose Coaching'></img>
                             </div>
-                            <p className='pages__p'>Masculine and Feminine dynamics, relationship coaching, and personal growth solutions.</p>
+                            <p className='pages__p'>Abundance coaching, self-limiting paradigm breaking, business consulting.</p>
                         </div>
                     </a>
 
