@@ -80,31 +80,3 @@ ul {
 .about__plant__button:hover {
     background-color: rgb(188, 202, 188);
 }
-
-
-/* .about__me1 {
-    max-height: 100%;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.about__me2 {
-    max-height: auto;
-    max-width: auto;
-    object-fit: contain;
-    border-radius: 40px;
-    padding: 20px;
-} */
-
-/* .about__me3 {
-    max-height: 100%;
-    max-width: 100%;
-    border-radius: 40px;
-}
-
-.about__me4 {
-    max-height: 100%;
-    max-width: 100%;
-    border-radius: 40px;
-} */
